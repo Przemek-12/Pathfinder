@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Pathfinder</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body onmouseup="mouseisup()">
+    
+    <section class="section1">
+        <nav>
+            <button type="button" onclick="clearDisplay()" id="clearButton" >Clear</button>
+            <button type="button" onclick="isDijkstra()" id="startButton">Start</button>
+           
+        </nav>
+
+        <div onclick="divDisplay()" id="container" >
+
+            <canvas id="canvas" height="810" width="1500"></canvas>
+            <div id="divStart" ></div>
+            <div id="divEnd" ></div>
+
+        </div>       
+        
+    </section>
+
+    
+
+    <script src=script.js defer></script>
+    
+</body>
+</html>
